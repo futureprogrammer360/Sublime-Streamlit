@@ -1,0 +1,17 @@
+[
+    {
+        "caption": "Streamlit: Doc",
+        "command": "streamlit_doc"
+    },
+    {
+        "caption": "Streamlit: Search Doc",
+        "command": "streamlit_search_doc",
+    },
+    {
+        "caption": "Streamlit: Open Readme",
+        "command": "open_file",
+        "args": {
+          "file": "${packages}/Streamlit/README.md"
+        }
+    }
+]

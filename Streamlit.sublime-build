@@ -1,0 +1,4 @@
+{
+    "cmd": ["streamlit", "run", "$file"],
+    "selector": "source.python"
+}

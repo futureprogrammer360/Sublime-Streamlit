@@ -1,0 +1,13 @@
+You have successfully installed the Sublime Streamlit package, a collection of tools that will help you use Python's Streamlit package more efficiently and easily.
+
+Sublime Streamlit provides completion for all Streamlit commands. The full list of completions can be found in the `streamlit.sublime-completions` file.
+
+Sublime Streamlit adds a new build system, `Streamlit`, which uses `streamlit run` to run a Streamlit program.
+
+Sublime Streamlit has two commands for exploring Streamlit docs:
+1. In a program, select a Streamlit command (example: `st.write`) and run the `Streamlit: Doc` command in the command palette to open the command's documentation page in the browser.
+2. To search for the documentation of a Streamlit command, run the `Streamlit: Search Doc` command in the command palette. Select the desired command to open its documentation page in the browser.
+
+For more information, visit the README.md file via the `Streamlit: Open Readme` command in the command palette.
+
+GitHub homepage: https://github.com/futureprogrammer360/Sublime-Streamlit

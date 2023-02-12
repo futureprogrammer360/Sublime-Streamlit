@@ -1,0 +1,479 @@
+{
+    "scope": "source.python",
+    "completions": [
+        {
+            "trigger": "import streamlit as st",
+            "contents": "import streamlit as st",
+            "annotation": "import streamlit as st",
+            "kind": "snippet",
+        },
+        {
+            "trigger": "st.write",
+            "contents": "st.write($0)",
+            "annotation": "st.write",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.markdown",
+            "contents": "st.markdown(${1:body}, unsafe_allow_html=${2:False})",
+            "annotation": "st.markdown",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.title",
+            "contents": "st.title(${1:body})",
+            "annotation": "st.title",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.header",
+            "contents": "st.header(${1:body})",
+            "annotation": "st.header",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.subheader",
+            "contents": "st.subheader(${1:body})",
+            "annotation": "st.subheader",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.caption",
+            "contents": "st.caption(${1:body}, unsafe_allow_html=${2:False})",
+            "annotation": "st.caption",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.code",
+            "contents": "st.code(${1:body}, language=${2:\"python\"})",
+            "annotation": "st.code",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.text",
+            "contents": "st.text(${1:body})",
+            "annotation": "st.text",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.latex",
+            "contents": "st.latex(${1:body})",
+            "annotation": "st.latex",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.dataframe",
+            "contents": "st.dataframe(${1:df}, width=${2:None}, height=${3:None}, use_container_width=${4:False})",
+            "annotation": "st.dataframe",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.table",
+            "contents": "st.table(${1:data})",
+            "annotation": "st.table",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.metric",
+            "contents": "st.metric(${1:label}, ${2:value}, delta=${3:None}, delta_color=${4:\"normal\"}, help=${5:None}, label_visibility=${6:\"visible\"})",
+            "annotation": "st.metric",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.json",
+            "contents": "st.json(${1:body}, expanded=${2:True})",
+            "annotation": "st.json",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.line_chart",
+            "contents": "st.line_chart(${1:data}, x=${2:None}, y=${3:None}, width=${4:0}, height=${5:0}, use_container_width=${6:True})",
+            "annotation": "st.line_chart",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.area_chart",
+            "contents": "st.area_chart(${1:data}, x=${2:None}, y=${3:None}, width=${4:0}, height=${5:0}, use_container_width=${6:True})",
+            "annotation": "st.area_chart",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.bar_chart",
+            "contents": "st.bar_chart(${1:data}, x=${2:None}, y=${3:None}, width=${4:0}, height=${5:0}, use_container_width=${6:True})",
+            "annotation": "st.bar_chart",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.map",
+            "contents": "st.map(${1:data}, zoom=${2:None}, use_container_width=${3:True})",
+            "annotation": "st.map",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.pyplot",
+            "contents": "st.pyplot(${1:fig}, clear_figure=${2:None})",
+            "annotation": "st.pyplot",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.altair_chart",
+            "contents": "st.altair_chart(${1:altair_chart}, use_container_width=${2:False}, theme=${3:\"streamlit\"})",
+            "annotation": "st.altair_chart",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.vega_lite_chart",
+            "contents": "st.vega_lite_chart(${1:data}, spec=${2:None}, use_container_width=${3:False}, theme=${4:\"streamlit\"})",
+            "annotation": "st.vega_lite_chart",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.plotly_chart",
+            "contents": "st.plotly_chart(${1:figure_or_data}, use_container_width=${2:False}, sharing=${3:\"streamlit\"}, theme=${4:\"streamlit\"})",
+            "annotation": "st.plotly_chart",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.bokeh_chart",
+            "contents": "st.bokeh_chart(${1:figure}, use_container_width=${2:False})",
+            "annotation": "st.bokeh_chart",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.pydeck_chart",
+            "contents": "st.pydeck_chart(${1:pydeck_obj}, use_container_width=${2:False})",
+            "annotation": "st.pydeck_chart",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.graphviz_chart",
+            "contents": "st.graphviz_chart(${1:figure_or_dot}, use_container_width=${2:False})",
+            "annotation": "st.graphviz_chart",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.button",
+            "contents": "st.button(${1:label})",
+            "annotation": "st.button",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.download_button",
+            "contents": "st.download_button(${1:label}, ${2:data}, file_name=${3:None}, mime=${4:None})",
+            "annotation": "st.download_button",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.checkbox",
+            "contents": "st.checkbox(${1:label}, value=${2:False})",
+            "annotation": "st.checkbox",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.radio",
+            "contents": "st.radio(${1:label}, ${2:options}, index=${3:0})",
+            "annotation": "st.radio",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.selectbox",
+            "contents": "st.selectbox(${1:label}, ${2:options}, index=${3:0})",
+            "annotation": "st.selectbox",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.multiselect",
+            "contents": "st.multiselect(${1:label}, ${2:options}, default=${3:None})",
+            "annotation": "st.multiselect",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.slider",
+            "contents": "st.slider(${1:label}, min_value=${2:0}, max_value=${3:100}, value=${4:0}, step=${5:1})",
+            "annotation": "st.slider",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.select_slider",
+            "contents": "st.select_slider(${1:label}, options=${2:()}, value=${3:None})",
+            "annotation": "st.select_slider",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.text_input",
+            "contents": "st.text_input(${1:label}, value=${2:\"\"}, max_chars=${3:None})",
+            "annotation": "st.text_input",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.number_input",
+            "contents": "st.number_input(${1:label}, min_value=${2:None}, max_value=${3:None}, value=${4:0}, step=${5:1})",
+            "annotation": "st.number_input",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.text_area",
+            "contents": "st.text_area(${1:label}, value=${2:\"\"}, height=${3:None}, max_chars=${4:None})",
+            "annotation": "st.text_area",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.date_input",
+            "contents": "st.date_input(${1:label}, value=${2:None}, min_value=${3:None}, max_value=${4:None})",
+            "annotation": "st.date_input",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.time_input",
+            "contents": "st.time_input(${1:label}, value=${2:None})",
+            "annotation": "st.time_input",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.file_uploader",
+            "contents": "st.file_uploader(${1:label}, type=${2:None}, accept_multiple_files=${3:False})",
+            "annotation": "st.file_uploader",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.camera_input",
+            "contents": "st.camera_input(${1:label})",
+            "annotation": "st.camera_input",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.color_picker",
+            "contents": "st.color_picker(${1:label}, value=${2:None})",
+            "annotation": "st.color_picker",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.image",
+            "contents": "st.image(${1:image}, caption=${2:None}, width=${3:None})",
+            "annotation": "st.image",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.audio",
+            "contents": "st.audio(${1:data}, format=${2:\"audio/wav\"}, start_time=${3:0})",
+            "annotation": "st.audio",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.video",
+            "contents": "st.video(${1:data}, format=${2:\"video/mp4\"}, start_time=${3:0})",
+            "annotation": "st.video",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.sidebar",
+            "contents": "st.sidebar",
+            "annotation": "st.sidebar",
+            "kind": "variable"
+        },
+        {
+            "trigger": "st.columns",
+            "contents": "st.columns(${1:spec}, gap=${2:\"small\"})",
+            "annotation": "st.columns",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.tabs",
+            "contents": "st.tabs(${1:tabs})",
+            "annotation": "st.tabs",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.expander",
+            "contents": "st.expander(${1:label}, expanded=${2:False})",
+            "annotation": "st.expander",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.container",
+            "contents": "st.container()",
+            "annotation": "st.container",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.empty",
+            "contents": "st.empty()",
+            "annotation": "st.empty",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.progress",
+            "contents": "st.progress(${1:value}, text=${2:None})",
+            "annotation": "st.progress",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.spinner",
+            "contents": "st.spinner(text=${1:\"In progress...\"})",
+            "annotation": "st.spinner",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.balloons",
+            "contents": "st.balloons()",
+            "annotation": "st.balloons",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.snow",
+            "contents": "st.snow()",
+            "annotation": "st.snow",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.error",
+            "contents": "st.error(${1:body}, icon=${2:None})",
+            "annotation": "st.error",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.warning",
+            "contents": "st.warning(${1:body}, icon=${2:None})",
+            "annotation": "st.warning",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.info",
+            "contents": "st.info(${1:body}, icon=${2:None})",
+            "annotation": "st.info",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.success",
+            "contents": "st.success(${1:body}, icon=${2:None})",
+            "annotation": "st.success",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.exception",
+            "contents": "st.exception(${1:exception})",
+            "annotation": "st.exception",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.form",
+            "contents": "st.form(${1:key}, clear_on_submit=${2:False})",
+            "annotation": "st.form",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.form_submit_button",
+            "contents": "st.form_submit_button(label=${1:\"Submit\"})",
+            "annotation": "st.form_submit_button",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.stop",
+            "contents": "st.stop()",
+            "annotation": "st.stop",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.experimental_rerun",
+            "contents": "st.experimental_rerun()",
+            "annotation": "st.experimental_rerun",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.set_page_config",
+            "contents": "st.set_page_config(page_title=${1:None}, page_icon=${2:None}, layout=${3:\"centered\"}, initial_sidebar_state=${4:\"auto\"}, menu_items=${5:None})",
+            "annotation": "st.set_page_config",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.echo",
+            "contents": "st.echo(code_location=${1:\"above\"})",
+            "annotation": "st.echo",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.help",
+            "contents": "st.help(${1:obj})",
+            "annotation": "st.help",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.experimental_show",
+            "contents": "st.experimental_show($0)",
+            "annotation": "st.experimental_show",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.experimental_get_query_params",
+            "contents": "st.experimental_get_query_params()",
+            "annotation": "st.experimental_get_query_params",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.experimental_set_query_params",
+            "contents": "st.experimental_set_query_params($0)",
+            "annotation": "st.experimental_set_query_params",
+            "kind": "function"
+        },
+        {
+            "trigger": "add_rows",
+            "contents": "add_rows(${1:data})",
+            "annotation": "add_rows",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.session_state",
+            "contents": "st.session_state",
+            "annotation": "st.session_state",
+            "kind": "variable"
+        },
+        {
+            "trigger": "@st.cache_data",
+            "contents": "@st.cache_data",
+            "annotation": "@st.cache_data",
+            "kind": "function"
+        },
+        {
+            "trigger": "@st.cache_resource",
+            "contents": "@st.cache_resource",
+            "annotation": "@st.cache_resource",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.cache_data.clear",
+            "contents": "st.cache_data.clear()",
+            "annotation": "st.cache_data.clear",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.cache_resource.clear",
+            "contents": "st.cache_resource.clear()",
+            "annotation": "st.cache_resource.clear",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.experimental_user",
+            "contents": "st.experimental_user",
+            "annotation": "st.experimental_user",
+            "kind": "variable"
+        },
+        {
+            "trigger": "import streamlit.components.v1 as components",
+            "contents": "import streamlit.components.v1 as components",
+            "annotation": "import streamlit.components.v1 as components",
+            "kind": "snippet",
+        },
+        {
+            "trigger": "st.components.v1.html",
+            "contents": "st.components.v1.html(${1:html}, width=${2:None}, height=${3:None}, scrolling=${4:False})",
+            "annotation": "st.components.v1.html",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.components.v1.iframe",
+            "contents": "st.components.v1.iframe(${1:src}, width=${2:None}, height=${3:None}, scrolling=${4:False})",
+            "annotation": "st.components.v1.iframe",
+            "kind": "function"
+        }
+    ]
+}
