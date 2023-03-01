@@ -158,6 +158,12 @@
             "kind": "function"
         },
         {
+            "trigger": "st.experimental_data_editor",
+            "contents": "st.experimental_data_editor(${1:data}, width=${2:None}, height=${3:None}, use_container_width=${4:False}, num_rows=${5:\"fixed\"}, disabled=${6:False})",
+            "annotation": "st.experimental_data_editor",
+            "kind": "function"
+        },
+        {
             "trigger": "st.download_button",
             "contents": "st.download_button(${1:label}, ${2:data}, file_name=${3:None}, mime=${4:None})",
             "annotation": "st.download_button",

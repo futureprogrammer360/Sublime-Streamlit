@@ -25,6 +25,7 @@
   "st.pydeck_chart - PyDeck": "https://docs.streamlit.io/library/api-reference/charts/st.pydeck_chart",
   "st.graphviz_chart - GraphViz": "https://docs.streamlit.io/library/api-reference/charts/st.graphviz_chart",
   "st.button - Button": "https://docs.streamlit.io/library/api-reference/widgets/st.button",
+  "st.experimental_data_editor - Data editor": "https://docs.streamlit.io/library/api-reference/widgets/st.experimental_data_editor",
   "st.download_button - Download button": "https://docs.streamlit.io/library/api-reference/widgets/st.download_button",
   "st.checkbox - Checkbox": "https://docs.streamlit.io/library/api-reference/widgets/st.checkbox",
   "st.radio - Radio": "https://docs.streamlit.io/library/api-reference/widgets/st.radio",
