@@ -1,5 +1,4 @@
 import string
-import os
 import json
 import webbrowser
 
@@ -9,8 +8,8 @@ import sublime
 
 def plugin_loaded():
     global links
-    with open(os.path.join(sublime.packages_path(), "Streamlit", "links.json")) as f:
-        links = json.load(f)
+    resource = sublime.load_resource("Packages/Streamlit/links.json")
+    links = json.loads(resource)
 
 
 class StreamlitDocCommand(sublime_plugin.TextCommand):
