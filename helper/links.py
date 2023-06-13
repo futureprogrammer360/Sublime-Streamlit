@@ -12,6 +12,8 @@ soup = BeautifulSoup(r.content, "html.parser")
 links = {}
 
 for section in soup.select("div.content section"):
+    if (p := section.select_one("div div p")) is not None and p.text == "Third-party components":
+        continue
     for a in section.select("a.refCard_Container__LoksC"):
         link = f"{BASE_URL}{a.attrs['href']}"
         name = f"{link.split('/')[-1]} - {a.select_one('h4').text}"
