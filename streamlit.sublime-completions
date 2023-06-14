@@ -5,7 +5,7 @@
             "trigger": "import streamlit as st",
             "contents": "import streamlit as st",
             "annotation": "import streamlit as st",
-            "kind": "snippet",
+            "kind": "snippet"
         },
         {
             "trigger": "st.write",
@@ -62,10 +62,28 @@
             "kind": "function"
         },
         {
+            "trigger": "st.divider",
+            "contents": "st.divider()",
+            "annotation": "st.divider",
+            "kind": "function"
+        },
+        {
             "trigger": "st.dataframe",
             "contents": "st.dataframe(${1:df}, width=${2:None}, height=${3:None}, use_container_width=${4:False})",
             "annotation": "st.dataframe",
             "kind": "function"
+        },
+        {
+            "trigger": "st.data_editor",
+            "contents": "st.data_editor(${1:data}, width=${2:None}, height=${3:None}, use_container_width=${4:False}, num_rows=${5:\"fixed\"}, disabled=${6:False})",
+            "annotation": "st.data_editor",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.column_config",
+            "contents": "st.column_config",
+            "annotation": "st.column_config",
+            "kind": "variable"
         },
         {
             "trigger": "st.table",
@@ -155,12 +173,6 @@
             "trigger": "st.button",
             "contents": "st.button(${1:label})",
             "annotation": "st.button",
-            "kind": "function"
-        },
-        {
-            "trigger": "st.experimental_data_editor",
-            "contents": "st.experimental_data_editor(${1:data}, width=${2:None}, height=${3:None}, use_container_width=${4:False}, num_rows=${5:\"fixed\"}, disabled=${6:False})",
-            "annotation": "st.experimental_data_editor",
             "kind": "function"
         },
         {
@@ -404,12 +416,6 @@
             "kind": "function"
         },
         {
-            "trigger": "st.experimental_show",
-            "contents": "st.experimental_show($0)",
-            "annotation": "st.experimental_show",
-            "kind": "function"
-        },
-        {
             "trigger": "st.experimental_get_query_params",
             "contents": "st.experimental_get_query_params()",
             "annotation": "st.experimental_get_query_params",
@@ -458,6 +464,12 @@
             "kind": "function"
         },
         {
+            "trigger": "st.experimental_connection",
+            "contents": "st.experimental_connection(${1:name}, type=${2:None})",
+            "annotation": "st.experimental_connection",
+            "kind": "function"
+        },
+        {
             "trigger": "st.experimental_user",
             "contents": "st.experimental_user",
             "annotation": "st.experimental_user",
@@ -467,18 +479,18 @@
             "trigger": "import streamlit.components.v1 as components",
             "contents": "import streamlit.components.v1 as components",
             "annotation": "import streamlit.components.v1 as components",
-            "kind": "snippet",
+            "kind": "snippet"
         },
         {
-            "trigger": "st.components.v1.html",
-            "contents": "st.components.v1.html(${1:html}, width=${2:None}, height=${3:None}, scrolling=${4:False})",
-            "annotation": "st.components.v1.html",
+            "trigger": "components.html",
+            "contents": "components.html(${1:html}, width=${2:None}, height=${3:None}, scrolling=${4:False})",
+            "annotation": "components.html",
             "kind": "function"
         },
         {
-            "trigger": "st.components.v1.iframe",
-            "contents": "st.components.v1.iframe(${1:src}, width=${2:None}, height=${3:None}, scrolling=${4:False})",
-            "annotation": "st.components.v1.iframe",
+            "trigger": "components.iframe",
+            "contents": "components.iframe(${1:src}, width=${2:None}, height=${3:None}, scrolling=${4:False})",
+            "annotation": "components.iframe",
             "kind": "function"
         }
     ]

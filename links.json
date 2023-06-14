@@ -11,6 +11,8 @@
   "st.latex - LaTeX": "https://docs.streamlit.io/library/api-reference/text/st.latex",
   "st.divider - Divider": "https://docs.streamlit.io/library/api-reference/text/st.divider",
   "st.dataframe - Dataframes": "https://docs.streamlit.io/library/api-reference/data/st.dataframe",
+  "st.data_editor - Data editor": "https://docs.streamlit.io/library/api-reference/data/st.data_editor",
+  "st.column_config - Column configuration": "https://docs.streamlit.io/library/api-reference/data/st.column_config",
   "st.table - Static tables": "https://docs.streamlit.io/library/api-reference/data/st.table",
   "st.metric - Metrics": "https://docs.streamlit.io/library/api-reference/data/st.metric",
   "st.json - Dicts and JSON": "https://docs.streamlit.io/library/api-reference/data/st.json",
@@ -66,7 +68,6 @@
   "st.set_page_config - Set page title, favicon, and more": "https://docs.streamlit.io/library/api-reference/utilities/st.set_page_config",
   "st.echo - Echo": "https://docs.streamlit.io/library/api-reference/utilities/st.echo",
   "st.help - Get help": "https://docs.streamlit.io/library/api-reference/utilities/st.help",
-  "st.experimental_show - st.experimental_show": "https://docs.streamlit.io/library/api-reference/utilities/st.experimental_show",
   "st.experimental_get_query_params - Get query parameters": "https://docs.streamlit.io/library/api-reference/utilities/st.experimental_get_query_params",
   "st.experimental_set_query_params - Set query parameters": "https://docs.streamlit.io/library/api-reference/utilities/st.experimental_set_query_params",
   "mutate - Add rows": "https://docs.streamlit.io/library/api-reference/mutate",
@@ -75,5 +76,9 @@
   "st.cache_resource - Cache resource": "https://docs.streamlit.io/library/api-reference/performance/st.cache_resource",
   "st.cache_data.clear - Clear cached data": "https://docs.streamlit.io/library/api-reference/performance/st.cache_data.clear",
   "st.cache_resource.clear - Clear cached resources": "https://docs.streamlit.io/library/api-reference/performance/st.cache_resource.clear",
+  "st.experimental_connection - Create a connection": "https://docs.streamlit.io/library/api-reference/connections/st.experimental_connection",
+  "st.connections.sqlconnection - SQLConnection": "https://docs.streamlit.io/library/api-reference/connections/st.connections.sqlconnection",
+  "st.connections.snowparkconnection - SnowparkConnection": "https://docs.streamlit.io/library/api-reference/connections/st.connections.snowparkconnection",
+  "st.connections.experimentalbaseconnection - Connection base class": "https://docs.streamlit.io/library/api-reference/connections/st.connections.experimentalbaseconnection",
   "st.experimental_user - User info": "https://docs.streamlit.io/library/api-reference/personalization/st.experimental_user"
 }
