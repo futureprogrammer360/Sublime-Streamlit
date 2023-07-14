@@ -320,6 +320,18 @@
             "kind": "function"
         },
         {
+            "trigger": "st.chat_message",
+            "contents": "st.chat_message(${1:name})",
+            "annotation": "st.chat_message",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.chat_input",
+            "contents": "st.chat_input(${1:placeholder})",
+            "annotation": "st.chat_input",
+            "kind": "function"
+        },
+        {
             "trigger": "st.progress",
             "contents": "st.progress(${1:value}, text=${2:None})",
             "annotation": "st.progress",

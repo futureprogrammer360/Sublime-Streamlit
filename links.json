@@ -53,6 +53,8 @@
   "st.expander - Expander": "https://docs.streamlit.io/library/api-reference/layout/st.expander",
   "st.container - Container": "https://docs.streamlit.io/library/api-reference/layout/st.container",
   "st.empty - Empty": "https://docs.streamlit.io/library/api-reference/layout/st.empty",
+  "st.chat_message - Chat message": "https://docs.streamlit.io/library/api-reference/chat/st.chat_message",
+  "st.chat_input - Chat input": "https://docs.streamlit.io/library/api-reference/chat/st.chat_input",
   "st.progress - Progress bar": "https://docs.streamlit.io/library/api-reference/status/st.progress",
   "st.spinner - Spinner": "https://docs.streamlit.io/library/api-reference/status/st.spinner",
   "st.balloons - Balloons": "https://docs.streamlit.io/library/api-reference/status/st.balloons",
