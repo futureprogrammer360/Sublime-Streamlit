@@ -344,6 +344,12 @@
             "kind": "function"
         },
         {
+            "trigger": "st.toast",
+            "contents": "st.toast(${1:body}, icon=${2:None})",
+            "annotation": "st.toast",
+            "kind": "function"
+        },
+        {
             "trigger": "st.balloons",
             "contents": "st.balloons()",
             "annotation": "st.balloons",

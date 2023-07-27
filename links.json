@@ -57,6 +57,7 @@
   "st.chat_input - Chat input": "https://docs.streamlit.io/library/api-reference/chat/st.chat_input",
   "st.progress - Progress bar": "https://docs.streamlit.io/library/api-reference/status/st.progress",
   "st.spinner - Spinner": "https://docs.streamlit.io/library/api-reference/status/st.spinner",
+  "st.toast - Toast": "https://docs.streamlit.io/library/api-reference/status/st.toast",
   "st.balloons - Balloons": "https://docs.streamlit.io/library/api-reference/status/st.balloons",
   "st.snow - Snowflakes": "https://docs.streamlit.io/library/api-reference/status/st.snow",
   "st.error - Error box": "https://docs.streamlit.io/library/api-reference/status/st.error",
