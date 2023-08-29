@@ -188,6 +188,12 @@
             "kind": "function"
         },
         {
+            "trigger": "st.toggle",
+            "contents": "st.toggle(${1:label}, value=${2:False})",
+            "annotation": "st.toggle",
+            "kind": "function"
+        },
+        {
             "trigger": "st.radio",
             "contents": "st.radio(${1:label}, ${2:options}, index=${3:0})",
             "annotation": "st.radio",
@@ -341,6 +347,12 @@
             "trigger": "st.spinner",
             "contents": "st.spinner(text=${1:\"In progress...\"})",
             "annotation": "st.spinner",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.status",
+            "contents": "st.status(${1:label})",
+            "annotation": "st.status",
             "kind": "function"
         },
         {
