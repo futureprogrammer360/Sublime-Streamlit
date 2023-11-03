@@ -104,12 +104,6 @@
             "kind": "function"
         },
         {
-            "trigger": "st.line_chart",
-            "contents": "st.line_chart(${1:data}, x=${2:None}, y=${3:None}, width=${4:0}, height=${5:0}, use_container_width=${6:True})",
-            "annotation": "st.line_chart",
-            "kind": "function"
-        },
-        {
             "trigger": "st.area_chart",
             "contents": "st.area_chart(${1:data}, x=${2:None}, y=${3:None}, width=${4:0}, height=${5:0}, use_container_width=${6:True})",
             "annotation": "st.area_chart",
@@ -119,6 +113,18 @@
             "trigger": "st.bar_chart",
             "contents": "st.bar_chart(${1:data}, x=${2:None}, y=${3:None}, width=${4:0}, height=${5:0}, use_container_width=${6:True})",
             "annotation": "st.bar_chart",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.line_chart",
+            "contents": "st.line_chart(${1:data}, x=${2:None}, y=${3:None}, width=${4:0}, height=${5:0}, use_container_width=${6:True})",
+            "annotation": "st.line_chart",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.scatter_chart",
+            "contents": "st.scatter_chart(${1:data}, x=${2:None}, y=${3:None}, color=${4:0}, size=${5:0}, use_container_width=${6:True})",
+            "annotation": "st.scatter_chart",
             "kind": "function"
         },
         {
@@ -179,6 +185,12 @@
             "trigger": "st.download_button",
             "contents": "st.download_button(${1:label}, ${2:data}, file_name=${3:None}, mime=${4:None})",
             "annotation": "st.download_button",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.link_button",
+            "contents": "st.link_button(${1:label}, ${2:url})",
+            "annotation": "st.link_button",
             "kind": "function"
         },
         {
@@ -338,6 +350,12 @@
             "kind": "function"
         },
         {
+            "trigger": "st.status",
+            "contents": "st.status(${1:label})",
+            "annotation": "st.status",
+            "kind": "function"
+        },
+        {
             "trigger": "st.progress",
             "contents": "st.progress(${1:value}, text=${2:None})",
             "annotation": "st.progress",
@@ -347,12 +365,6 @@
             "trigger": "st.spinner",
             "contents": "st.spinner(text=${1:\"In progress...\"})",
             "annotation": "st.spinner",
-            "kind": "function"
-        },
-        {
-            "trigger": "st.status",
-            "contents": "st.status(${1:label})",
-            "annotation": "st.status",
             "kind": "function"
         },
         {
@@ -422,9 +434,9 @@
             "kind": "function"
         },
         {
-            "trigger": "st.experimental_rerun",
-            "contents": "st.experimental_rerun()",
-            "annotation": "st.experimental_rerun",
+            "trigger": "st.rerun",
+            "contents": "st.rerun()",
+            "annotation": "st.rerun",
             "kind": "function"
         },
         {
@@ -494,9 +506,9 @@
             "kind": "function"
         },
         {
-            "trigger": "st.experimental_connection",
-            "contents": "st.experimental_connection(${1:name}, type=${2:None})",
-            "annotation": "st.experimental_connection",
+            "trigger": "st.connection",
+            "contents": "st.connection(${1:name}, type=${2:None})",
+            "annotation": "st.connection",
             "kind": "function"
         },
         {

@@ -11,7 +11,7 @@ soup = BeautifulSoup(r.content, "html.parser")
 
 links = {}
 
-for section in soup.select("div.content section"):
+for section in soup.select("div.content section.tileContainer_Container__qZUK_")[:-1]:
     if (p := section.select_one("div div p")) is not None and p.text == "Third-party components":
         continue
     for a in section.select("a.refCard_Container__LoksC"):
