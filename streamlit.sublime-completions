@@ -14,6 +14,12 @@
             "kind": "function"
         },
         {
+            "trigger": "st.write_stream",
+            "contents": "st.write_stream(${1:stream})",
+            "annotation": "st.write_stream",
+            "kind": "function"
+        },
+        {
             "trigger": "st.markdown",
             "contents": "st.markdown(${1:body}, unsafe_allow_html=${2:False})",
             "annotation": "st.markdown",
@@ -39,7 +45,7 @@
         },
         {
             "trigger": "st.caption",
-            "contents": "st.caption(${1:body}, unsafe_allow_html=${2:False})",
+            "contents": "st.caption(${1:body})",
             "annotation": "st.caption",
             "kind": "function"
         },
@@ -69,13 +75,13 @@
         },
         {
             "trigger": "st.dataframe",
-            "contents": "st.dataframe(${1:df}, width=${2:None}, height=${3:None}, use_container_width=${4:False})",
+            "contents": "st.dataframe(${1:df}, width=${2:None}, height=${3:None}, use_container_width=${4:False}, hide_index=${5:None})",
             "annotation": "st.dataframe",
             "kind": "function"
         },
         {
             "trigger": "st.data_editor",
-            "contents": "st.data_editor(${1:data}, width=${2:None}, height=${3:None}, use_container_width=${4:False}, num_rows=${5:\"fixed\"}, disabled=${6:False})",
+            "contents": "st.data_editor(${1:data}, width=${2:None}, height=${3:None}, use_container_width=${4:False}, hide_index=${5:None}, num_rows=${6:\"fixed\"}, disabled=${7:False})",
             "annotation": "st.data_editor",
             "kind": "function"
         },
@@ -194,6 +200,12 @@
             "kind": "function"
         },
         {
+            "trigger": "st.page_link",
+            "contents": "st.page_link(${1:page}, label=${2:label}, icon=${3:None}, disabled=${4:False})",
+            "annotation": "st.page_link",
+            "kind": "function"
+        },
+        {
             "trigger": "st.checkbox",
             "contents": "st.checkbox(${1:label}, value=${2:False})",
             "annotation": "st.checkbox",
@@ -297,32 +309,14 @@
         },
         {
             "trigger": "st.video",
-            "contents": "st.video(${1:data}, format=${2:\"video/mp4\"}, start_time=${3:0})",
+            "contents": "st.video(${1:data}, format=${2:\"video/mp4\"}, start_time=${3:0}, subtitles=${4:None})",
             "annotation": "st.video",
             "kind": "function"
-        },
-        {
-            "trigger": "st.sidebar",
-            "contents": "st.sidebar",
-            "annotation": "st.sidebar",
-            "kind": "variable"
         },
         {
             "trigger": "st.columns",
             "contents": "st.columns(${1:spec}, gap=${2:\"small\"})",
             "annotation": "st.columns",
-            "kind": "function"
-        },
-        {
-            "trigger": "st.tabs",
-            "contents": "st.tabs(${1:tabs})",
-            "annotation": "st.tabs",
-            "kind": "function"
-        },
-        {
-            "trigger": "st.expander",
-            "contents": "st.expander(${1:label}, expanded=${2:False})",
-            "annotation": "st.expander",
             "kind": "function"
         },
         {
@@ -338,15 +332,39 @@
             "kind": "function"
         },
         {
-            "trigger": "st.chat_message",
-            "contents": "st.chat_message(${1:name})",
-            "annotation": "st.chat_message",
+            "trigger": "st.expander",
+            "contents": "st.expander(${1:label}, expanded=${2:False})",
+            "annotation": "st.expander",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.popover",
+            "contents": "st.popover(${1:label})",
+            "annotation": "st.popover",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.sidebar",
+            "contents": "st.sidebar",
+            "annotation": "st.sidebar",
+            "kind": "variable"
+        },
+        {
+            "trigger": "st.tabs",
+            "contents": "st.tabs(${1:tabs})",
+            "annotation": "st.tabs",
             "kind": "function"
         },
         {
             "trigger": "st.chat_input",
             "contents": "st.chat_input(${1:placeholder})",
             "annotation": "st.chat_input",
+            "kind": "function"
+        },
+        {
+            "trigger": "st.chat_message",
+            "contents": "st.chat_message(${1:name})",
+            "annotation": "st.chat_message",
             "kind": "function"
         },
         {
@@ -422,9 +440,9 @@
             "kind": "function"
         },
         {
-            "trigger": "st.form_submit_button",
-            "contents": "st.form_submit_button(label=${1:\"Submit\"})",
-            "annotation": "st.form_submit_button",
+            "trigger": "st.rerun",
+            "contents": "st.rerun()",
+            "annotation": "st.rerun",
             "kind": "function"
         },
         {
@@ -434,9 +452,9 @@
             "kind": "function"
         },
         {
-            "trigger": "st.rerun",
-            "contents": "st.rerun()",
-            "annotation": "st.rerun",
+            "trigger": "st.switch_page",
+            "contents": "st.switch_page(${1:page})",
+            "annotation": "st.switch_page",
             "kind": "function"
         },
         {
@@ -458,16 +476,10 @@
             "kind": "function"
         },
         {
-            "trigger": "st.experimental_get_query_params",
-            "contents": "st.experimental_get_query_params()",
-            "annotation": "st.experimental_get_query_params",
-            "kind": "function"
-        },
-        {
-            "trigger": "st.experimental_set_query_params",
-            "contents": "st.experimental_set_query_params($0)",
-            "annotation": "st.experimental_set_query_params",
-            "kind": "function"
+            "trigger": "st.query_params",
+            "contents": "st.query_params",
+            "annotation": "st.query_params",
+            "kind": "variable"
         },
         {
             "trigger": "add_rows",

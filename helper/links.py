@@ -11,10 +11,13 @@ soup = BeautifulSoup(r.content, "html.parser")
 
 links = {}
 
-for section in soup.select("div.content section.tileContainer_Container__KCC27")[:-1]:
-    for a in section.select("a.refCard_Container__cRE_M"):
+for section in soup.select("div.content section")[:-1]:
+    for a in section.select("a.refCard_Container__cRE_M.refCard_Half__oqkqw") or section.select("a.refCard_Container__cRE_M.refCard_Third__QZ4rX"):
         link = f"{BASE_URL}{a.attrs['href']}"
         name = f"{link.split('/')[-1]} - {a.select_one('h4').text}"
+
+        if "#" in name:
+            continue
 
         links[name] = link
 
